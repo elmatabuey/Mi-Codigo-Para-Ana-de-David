@@ -64,8 +64,8 @@ body {
   position: fixed;
   color: #f7ab05;
   font-size: 2.6rem;
-  bottom: 1rem;
-  right: 1rem;
+  bottom: 2rem;
+  right: 2rem;
   text-decoration: underline;
   cursor: default;
 }
