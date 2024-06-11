@@ -26,12 +26,12 @@ body {
 .container {
   width: 50rem;
   height: 50rem;
-  position: relative;
+  position: center;
 }
 
 .svg-container {
   z-index: 2;
-  position: center;
+  position: absolute;
 }
 
 .mo-container {
