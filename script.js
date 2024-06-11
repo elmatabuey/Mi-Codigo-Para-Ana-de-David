@@ -23,7 +23,7 @@ const el = {
 
   blup: qs(".blup"),
   blop: qs(".blop"),
-  sound: qs(".sound"),
+  Audio: qs(".Audio"),
 };
 
 class Heart extends mojs.CustomShape {
@@ -388,7 +388,7 @@ setInterval(() => {
   loveTl.replay();
 }, 4300);
 
-const volume = 0.2;
+const volume = 0.5;
 el.blup.volume = volume;
 el.blop.volume = volume;
 
@@ -398,13 +398,13 @@ const toggleSound = () => {
     if (on) {
       el.blup.volume = 0.0;
       el.blop.volume = 0.0;
-      el.sound.classList.add("sound--off");
+      el.Audio.classList.add("sound--off");
     } else {
       el.blup.volume = volume;
       el.blop.volume = volume;
-      el.sound.classList.remove("sound--off");
+      el.Audio.classList.remove("sound--off");
     }
     on = !on;
   };
 };
-el.sound.addEventListener("click", toggleSound());
+el.Audio.addEventListener("click", toggleSound());
