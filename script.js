@@ -18,7 +18,7 @@ const el = {
   lineLeft: qs(".line--left"),
   lineRight: qs(".line--rght"),
 
-  colTxt: "#763c8c",
+  colTxt: "#a3a5cc",
   colHeart: "#fa4843",
 
   blup: qs(".blup"),
