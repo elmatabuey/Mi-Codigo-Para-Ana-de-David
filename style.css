@@ -40,14 +40,14 @@ body {
 
 .line {
   fill: none;
-  stroke: #ffffff;
+  stroke: #212020;
   stroke-width: 8;
   stroke-linecap: round;
   stroke-miterlimit: 10;
 }
 
 .lttr {
-  fill: #a5b9c7;
+  fill: #ffffff;
 }
 
 .sound {
