@@ -41,7 +41,7 @@ body {
 .mo-container {
   width: 100%;
   height: 100%;
-  font-size: 3rem; /* Incremento del tamaño del texto */
+  font-size: 2rem; /* Incremento del tamaño del texto */
   display: flex;
   justify-content: center;
   align-items: center;
