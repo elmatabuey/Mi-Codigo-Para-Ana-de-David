@@ -31,7 +31,7 @@ body {
 
 .svg-container {
   z-index: 2;
-  position: absolute;
+  position: center;
 }
 
 .mo-container {
