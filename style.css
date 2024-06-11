@@ -30,7 +30,7 @@ body {
 }
 
 .svg-container {
-  z-index: 5;
+  z-index: 2;
   position: absolute;
 }
 
